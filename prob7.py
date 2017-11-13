@@ -9,7 +9,7 @@ nextTime = nowTime = datetime.datetime.now()
 
 
 # Set the end time
-endTime = nowTime + datetime.timedelta(days=2)
+endTime = nowTime + datetime.timedelta(days=20)
 
 print("This program will run for two days.")
 print("It saves a xml file every 15 minutes.")
@@ -22,7 +22,7 @@ while nowTime < endTime:
 		nowTime = datetime.datetime.now()
 	sys.stdout.write("\n")
 
-	requeststr = "https://graphical.weather.gov/xml/sample_products/browser_interface/ndfdXMLclient.php?lat=40.4385&lon=-79.9973&product=time-series&maxt=maxt&mint=mint&icons=icons&wx=wx"
+	requeststr = "https://graphical.weather.gov/xml/sample_products/browser_interface/ndfdXMLclient.php?lat=40.4385&lon=-79.9973&product=time-series&temp=temp&maxt=maxt&mint=mint"
 	weatherXML = requests.get(requeststr).text
 	nextTime = nextTime + datetime.timedelta(minutes=15)
 

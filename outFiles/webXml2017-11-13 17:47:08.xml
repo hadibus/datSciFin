@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<dwml version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">
+  <head>
+    <product srsName="WGS 1984" concise-name="time-series" operational-mode="official">
+      <title>NOAA's National Weather Service Forecast Data</title>
+      <field>meteorological</field>
+      <category>forecast</category>
+      <creation-date refresh-frequency="PT1H">2017-11-14T00:47:09Z</creation-date>
+    </product>
+    <source>
+      <more-information>https://graphical.weather.gov/xml/</more-information>
+      <production-center>Meteorological Development Laboratory<sub-center>Product Generation Branch</sub-center></production-center>
+      <disclaimer>http://www.nws.noaa.gov/disclaimer.html</disclaimer>
+      <credit>https://www.weather.gov/</credit>
+      <credit-logo>https://www.weather.gov/logorequest</credit-logo>
+      <feedback>https://www.weather.gov/contact</feedback>
+    </source>
+  </head>
+  <data>
+    <location>
+      <location-key>point1</location-key>
+      <point latitude="40.44" longitude="-80.00"/>
+    </location>
+    <moreWeatherInformation applicable-location="point1">https://forecast-v3.weather.gov/point/40.44,-80.00</moreWeatherInformation>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n7-1</layout-key>
+      <start-valid-time>2017-11-14T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-14T19:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-15T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-15T19:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-16T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-16T19:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-17T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-17T19:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-18T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-18T19:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-19T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-19T19:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-20T07:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-20T19:00:00-05:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p24h-n7-2</layout-key>
+      <start-valid-time>2017-11-13T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-14T08:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-14T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-15T08:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-15T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-16T08:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-16T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-17T08:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-17T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-18T08:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-18T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-19T08:00:00-05:00</end-valid-time>
+      <start-valid-time>2017-11-19T19:00:00-05:00</start-valid-time>
+      <end-valid-time>2017-11-20T08:00:00-05:00</end-valid-time>
+    </time-layout>
+    <time-layout time-coordinate="local" summarization="none">
+      <layout-key>k-p3h-n40-3</layout-key>
+      <start-valid-time>2017-11-13T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-14T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-14T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-14T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-14T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-14T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-14T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-14T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-14T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-15T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-15T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-15T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-15T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-15T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-15T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-15T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-15T22:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-16T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-16T04:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-16T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-16T10:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-16T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-16T16:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-16T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-17T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-17T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-17T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-17T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-18T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-18T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-18T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-18T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-19T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-19T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-19T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-19T19:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-20T01:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-20T07:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-20T13:00:00-05:00</start-valid-time>
+      <start-valid-time>2017-11-20T19:00:00-05:00</start-valid-time>
+    </time-layout>
+    <parameters applicable-location="point1">
+      <temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n7-1">
+        <name>Daily Maximum Temperature</name>
+        <value>43</value>
+        <value>51</value>
+        <value>44</value>
+        <value>49</value>
+        <value>51</value>
+        <value>36</value>
+        <value>38</value>
+      </temperature>
+      <temperature type="minimum" units="Fahrenheit" time-layout="k-p24h-n7-2">
+        <name>Daily Minimum Temperature</name>
+        <value>33</value>
+        <value>30</value>
+        <value>38</value>
+        <value>29</value>
+        <value>40</value>
+        <value>30</value>
+        <value>25</value>
+      </temperature>
+      <temperature type="hourly" units="Fahrenheit" time-layout="k-p3h-n40-3">
+        <name>Temperature</name>
+        <value>38</value>
+        <value>36</value>
+        <value>34</value>
+        <value>33</value>
+        <value>37</value>
+        <value>42</value>
+        <value>43</value>
+        <value>38</value>
+        <value>35</value>
+        <value>33</value>
+        <value>32</value>
+        <value>31</value>
+        <value>42</value>
+        <value>50</value>
+        <value>50</value>
+        <value>46</value>
+        <value>44</value>
+        <value>43</value>
+        <value>41</value>
+        <value>39</value>
+        <value>39</value>
+        <value>44</value>
+        <value>43</value>
+        <value>41</value>
+        <value>34</value>
+        <value>31</value>
+        <value>48</value>
+        <value>43</value>
+        <value>41</value>
+        <value>41</value>
+        <value>51</value>
+        <value>44</value>
+        <value>33</value>
+        <value>30</value>
+        <value>36</value>
+        <value>33</value>
+        <value>29</value>
+        <value>26</value>
+        <value>37</value>
+        <value>33</value>
+      </temperature>
+    </parameters>
+  </data>
+</dwml>

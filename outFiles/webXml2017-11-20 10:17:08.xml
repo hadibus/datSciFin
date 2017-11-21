@@ -1,0 +1,8 @@
+<error><h2>ERROR</h2><pre><problem>No data were found using the following input:</problem>
+<product>time-series</product>
+<startTime>2017-11-18T17:17:00 </startTime>
+<endTime>2019-11-20T17:17:00</endTime>
+<Unit>e</Unit>
+<latitudeLongitudes>
+40.4385,-79.9973 </latitudeLongitudes><NDFDparameters>
+maxt mint temp </NDFDparameters></pre></error>

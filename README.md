@@ -45,3 +45,11 @@ For each distance of forecast days:
 
 What about plotting both the 24hr min and max on the same graphs. Then there would only
 be 7 graphs. I like that!
+
+1. Make a script "forecast_getter" that takes all of the xml files and creates a giant csv with the forecast data inside (night and day).
+
+2. Make a script that rakes the min and max daily temperature from the actualWeather file an puts in in a csv.
+
+3. Make scripts that make the seven graphs.
+
+4. Write a report.

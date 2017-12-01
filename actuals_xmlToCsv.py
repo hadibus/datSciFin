@@ -1,6 +1,3 @@
-######################
-# GetNDFDWeather7.py
-######################
 
 import sys
 import matplotlib.dates as mpldates

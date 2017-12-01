@@ -5,9 +5,9 @@ import sys
 # have have exactly sys.argv[1] columns.
 #########################################
 
-for arg in sys.argv[2:]:
+for arg in sys.argv[1:]:
     with open(arg) as fin:
         for line in fin:
             sections = line.split(',')
-            if not (sections[2] == ''):
+            if sections[2] == '' or sections[4] == '':
                 sys.stdout.write(line)
